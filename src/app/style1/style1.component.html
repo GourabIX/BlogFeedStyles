@@ -1,1 +1,90 @@
-<p>style1 works!</p>
+<div class="container">
+  <div class="content-actual">
+    <div class="headerText">
+      <p class="lead" style="font-size: 45px;">Our Featured Stories</p>
+    </div>
+    <ngb-accordion [closeOthers]="true">
+      <ngb-panel id="blog-1">
+        <ng-template ngbPanelTitle>
+          <span
+            >&#9733;
+            <strong>What exactly does WIPO Match aim to do?</strong></span
+          >
+        </ng-template>
+        <ng-template ngbPanelContent>
+          <p>
+            WIPO Match is a global stakeholders community which aims at
+            harnessing the industry and private sector's power to promote
+            economic, social and cultural development in developing countries,
+            LDCs, as well as countries in transition. It does this by helping IP
+            technical assistance seekers to find relevant providers for project
+            and local engagements.
+          </p>
+          <p>
+            Vision – To empower the innovativeness and creativity of IP
+            stakeholders, by enabling a dynamic platform, which fosters global
+            development.
+          </p>
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel id="blog-2">
+        <ng-template ngbPanelTitle>
+          <span
+            >&#9733;
+            <strong>How do I upload my own offers or needs?</strong></span
+          >
+        </ng-template>
+        <ng-template ngbPanelContent>
+          <p>
+            In order to upload your own offers or needs, you first need to
+            create a WIPO Account. Once your WIPO Account is set up, access the
+            WIPO Match database, from where you can sign in.
+          </p>
+          <a
+            type="button"
+            class="btn btn-primary"
+            href="https://www3.wipo.int/match/#/search/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Match Database"
+            >Access the WIPO Match database</a
+          >
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel id="blog-3">
+        <ng-template ngbPanelTitle>
+          <span>&#9733; <strong>What is a successful match?</strong></span>
+        </ng-template>
+        <ng-template ngbPanelContent>
+          <p>
+            A successful match occurs when parties freely enter into a
+            connection or when they demonstrate a mutual willingness to
+            collaborate on agreed tailor-made terms.
+          </p>
+          <a
+            type="button"
+            class="btn btn-info shadow-none"
+            href="https://www3.wipo.int/match/assets/images/WIPO%20MATCH-SUCCESS%20STORIES-2410.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            >View successful matches</a
+          >
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel id="blog-4">
+        <ng-template ngbPanelTitle>
+          <span>&#9733; <strong>Why use WIPO Match?</strong></span>
+        </ng-template>
+        <ng-template ngbPanelContent>
+          <p>
+            WIPO Match is not only a platform for technical assistance projects,
+            but also one which can bring new opportunities for integrated IP and
+            innovation projects, such as private-public partnerships,
+            south-south cooperation and triangular projects.
+          </p>
+          <p>It is <em>free, simple, reliable</em> and <em>global</em>.</p>
+        </ng-template>
+      </ngb-panel>
+    </ngb-accordion>
+  </div>
+</div>
