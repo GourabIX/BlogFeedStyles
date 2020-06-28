@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-style1',
-  templateUrl: './style1.component.html',
-  styleUrls: ['./style1.component.css']
+  selector: "app-style1",
+  templateUrl: "./style1.component.html",
+  styleUrls: ["./style1.component.css"],
 })
 export class Style1Component implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

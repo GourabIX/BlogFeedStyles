@@ -1,0 +1,13 @@
+.carousel-image-container {
+  height: 600px;
+  width: 1200px;
+  background-color: white;
+  overflow: hidden;
+}
+.carousel-image-container img {
+  display: block;
+}
+
+.portrait img {
+  width: 100%;
+}
