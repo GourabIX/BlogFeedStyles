@@ -1,0 +1,30 @@
+.carousel {
+  background: whitesmoke;
+}
+.carousel-inner {
+  height: 220px;
+}
+.carousel-caption {
+  color: rgb(0, 0, 0);
+  top: 38px;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: royalblue;
+  /* box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5); */
+}
+
+.carousel-indicators .active {
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  background-color: darkblue;
+}
